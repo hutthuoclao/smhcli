@@ -13,11 +13,11 @@ $currentDate = Get-Date -Format "yyyyMMdd_HHmmss"                              	
     $maxFileSize = "2147483648"							#Bin File Zize Default 4294967296
     #-------------------Stop Editing-------------------
     #-----------------Advance Settings-----------------
-    $config = ".\config.mainnet.json"						#config.mainnet.json Location
+    $config = "/content/smhcli/config.mainnet.json"						#config.mainnet.json Location
     $smdataLocation = ".\sm_data"						#Node DataBase Location
     $tcpPort = "7513" 								# If port 7513 gives problems, change to something else eg. 7514
     $logOutputPath = "output_$currentDate.txt"					#Log name use _$currentDate for diferent logs
-    $goSpacemeshLocation = ".\go-spacemesh.exe"					#go-sm location
+    $goSpacemeshLocation = "/content/smhcli/mesh"					#go-sm location
     $localDateTime = "Yes" 							# Yes/No.  This will change the log Date into a localized Time/Date.
 
 	#-------------------Stop Editing-------------------
